@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <div id="form-main">
+        <p id="description">Help us improve our programme by completing the survey.</p>
+        <form id="survey-form">
+            <div class="row-tab">
+                <div class="labels">
+                    <label id="name-label" for="name">* Name: </label>
+                </div>
+                <div class="inputs">
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+                </div>
+            </div>
+            <div class="row-tab">
+                <div class="labels">
+                    <label id="email-label" for="email">* Email: </label>
+                </div>
+                <div class="inputs">
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+                </div>
+            </div>
+            <div class="row-tab">
+                <div class="labels">
+                    <label id="number-label" for="age">* Age: </label>
+                </div>
+                <div class="inputs">
+                    <input type="number" id="number" name="age" min="18" max="60" placeholder="Enter your age"
+                        required><br>
+                </div>
+            </div>
+            <div class="row-tab">
+                <div class="labels">
+                    <label for="mode" id="mode-label">What was your mode of learning?</label>
+                </div>
+                <div class="inputs">
+                    <select id="dropdown" name="mode">
+                        <option value="fulltime">Full-time learning</option>
+                        <option value="partime">Part-time learning</option>
+                        <option value="online">Online learning</option>
+                        <option value="online">Prefer not the say</option>
+                    </select><br>
+                </div>
+            </div>
+            <div class="row-tab">
+                <div class="labels"><label for="radio-buttons">How likely is that you would recommend our programme to a
+                        friend?</label></div>
+                <div class="inputs">
+                    <ul style="list-style:none">
+                        <li><label><input type="radio" name="radio-buttons" value="definitely">Definitely</label></li>
+                        <li><label><input type="radio" name="radio-buttons" value="maybe">Maybe</label></li>
+                        <li><label><input type="radio" name="radio-buttons" value="not-sure">Not Sure</label></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row-tab">
+                <div class="labels" for="checkbox"><label>What aspect of our programme did you really enjoy?<br>(Check
+                        all
+                        that apply)</label></div>
+                <div class="inputs">
+                    <ul style="list-style: none">
+                        <li><label><input type="checkbox" name="resources" value="resources"> Resources</label></li>
+                        <li><label><input type="checkbox" name="projects" value="projects"> Projects</label></li>
+                        <li><label><input type="checkbox" name="teachers" value="teachers"> Teachers</label></li>
+                        <li><label><input type="checkbox" name="projects" value="projects"> Projects</label></li>
+                        <li><label><input type="checkbox" name="courses" value="courses"> Courses</label></li>
+                        <li><label><input type="checkbox" name="tie-ups" value="tie-ups"> Industrial tie-ups</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <textarea id="commentbox" name="commentbox" placeholder="Any comments..." style="width:250px; height: 100px; resize:vertical"></textarea>
+            <p> Thank you for your time.</p>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
