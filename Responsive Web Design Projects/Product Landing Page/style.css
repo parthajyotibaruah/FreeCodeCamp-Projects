@@ -75,7 +75,7 @@ header li {
 }
 
 .features h2 {
-    padding-bottom: 50px
+    padding: 50px 0;
 }
 
 .features ul {
