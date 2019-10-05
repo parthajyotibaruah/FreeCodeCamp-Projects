@@ -1,0 +1,8 @@
+# Product Landing Page
+
+<strong>DEMO:</strong> https://parthajyotibaruah.github.io/FreeCodeCamp-Projects/Responsive%20Web%20Design%20Projects/Product%20Landing%20Page/index.html
+
+This is a project I submitted while working towards [FreeCodeCamp](https://www.freecodecamp.org)'s Responsive Web Design Certfication.
+
+<strong>Technologies used:</strong><br>
+HTML and CSS
